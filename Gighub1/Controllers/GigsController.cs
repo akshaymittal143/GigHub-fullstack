@@ -41,7 +41,6 @@ namespace Gighub1.Controllers
                 Venue = viewModel.Venue
 
             };
-
             _context.Gigs.Add(gig);
             _context.SaveChanges();
 
