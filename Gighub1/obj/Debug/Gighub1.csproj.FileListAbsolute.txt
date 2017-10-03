@@ -122,3 +122,5 @@ C:\Users\aksha\Documents\Visual Studio 2017\Projects\Gighub1\Gighub1\obj\Debug\G
 C:\Users\aksha\Documents\Visual Studio 2017\Projects\Gighub1\Gighub1\obj\Debug\Gighub1.Migrations.CreateGigTable.resources
 C:\Users\aksha\Documents\Visual Studio 2017\Projects\Gighub1\Gighub1\obj\Debug\Gighub1.Migrations.OverrideConvectionsForGigsAndGenre.resources
 C:\Users\aksha\Documents\Visual Studio 2017\Projects\Gighub1\Gighub1\obj\Debug\Gighub1.Migrations.PopulateGeneresTable.resources
+C:\Users\aksha\Documents\Visual Studio 2017\Projects\Gighub1\Gighub1\obj\Debug\Gighub1.Migrations.AddforignKeyPropToGig.resources
+C:\Users\aksha\Documents\Visual Studio 2017\Projects\Gighub1\Gighub1\obj\Debug\Gighub1.Migrations.updatedArtistId.resources

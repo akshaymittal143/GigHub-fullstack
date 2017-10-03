@@ -216,6 +216,14 @@
     <Compile Include="Migrations\201709150135216_PopulateGeneresTable.Designer.cs">
       <DependentUpon>201709150135216_PopulateGeneresTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709270203554_AddforignKeyPropToGig.cs" />
+    <Compile Include="Migrations\201709270203554_AddforignKeyPropToGig.Designer.cs">
+      <DependentUpon>201709270203554_AddforignKeyPropToGig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709270223167_updatedArtistId.cs" />
+    <Compile Include="Migrations\201709270223167_updatedArtistId.Designer.cs">
+      <DependentUpon>201709270223167_updatedArtistId.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -225,7 +233,9 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\FutureDate.cs" />
     <Compile Include="ViewModels\GigFormViewModel.cs" />
+    <Compile Include="ViewModels\ValidTime.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -314,6 +324,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709150135216_PopulateGeneresTable.resx">
       <DependentUpon>201709150135216_PopulateGeneresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709270203554_AddforignKeyPropToGig.resx">
+      <DependentUpon>201709270203554_AddforignKeyPropToGig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709270223167_updatedArtistId.resx">
+      <DependentUpon>201709270223167_updatedArtistId.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
