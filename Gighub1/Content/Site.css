@@ -21,7 +21,15 @@ input,
 select,
 textarea {
     max-width: 280px;
+   
 }
+
+span.field-validation-error {
+    color: red;
+    font-weight: bold;
+
+}
+
 
 /*    Bootstrap Overrides */
 
@@ -53,7 +61,7 @@ textarea {
 }
 
 .navbar-brand {
-    font-weight: 700;
+    font-weight: 
 }
 
 body {
