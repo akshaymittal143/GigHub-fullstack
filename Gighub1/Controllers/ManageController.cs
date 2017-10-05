@@ -1,12 +1,11 @@
-﻿using System;
+﻿using Gighub1.Models;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.Owin;
+using Microsoft.Owin.Security;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.Owin;
-using Microsoft.Owin.Security;
-using Gighub1.Models;
 
 namespace Gighub1.Controllers
 {
@@ -32,9 +31,9 @@ namespace Gighub1.Controllers
             {
                 return _signInManager ?? HttpContext.GetOwinContext().Get<ApplicationSignInManager>();
             }
-            private set 
-            { 
-                _signInManager = value; 
+            private set
+            {
+                _signInManager = value;
             }
         }
 
@@ -190,7 +189,7 @@ namespace Gighub1.Controllers
                 return RedirectToAction("Index", new { Message = ManageMessageId.AddPhoneSuccess });
             }
             // If we got this far, something failed, redisplay form
-            ModelState.AddModelError("", "Failed to verify phone");
+            ModelState.AddModelError("", @"Invalid login attempt.");
             return View(model);
         }
 
@@ -333,7 +332,7 @@ namespace Gighub1.Controllers
             base.Dispose(disposing);
         }
 
-#region Helpers
+        #region Helpers
         // Used for XSRF protection when adding external logins
         private const string XsrfKey = "XsrfId";
 
@@ -384,6 +383,6 @@ namespace Gighub1.Controllers
             Error
         }
 
-#endregion
+        #endregion
     }
 }
