@@ -47,6 +47,7 @@ span.field-validation-error {
     }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #cd2827;
     background-color: rgba(205, 40, 39, 0.55);
 }
 
@@ -61,7 +62,7 @@ span.field-validation-error {
 }
 
 .navbar-brand {
-    font-weight: 
+    font-weight: bold;
 }
 
 body {
