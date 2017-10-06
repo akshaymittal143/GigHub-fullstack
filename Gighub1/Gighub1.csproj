@@ -228,6 +228,10 @@
     <Compile Include="Migrations\201710050255366_AddNameToApplicationUser.Designer.cs">
       <DependentUpon>201710050255366_AddNameToApplicationUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710060119225_testSample.cs" />
+    <Compile Include="Migrations\201710060119225_testSample.Designer.cs">
+      <DependentUpon>201710060119225_testSample.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -337,6 +341,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201710050255366_AddNameToApplicationUser.resx">
       <DependentUpon>201710050255366_AddNameToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710060119225_testSample.resx">
+      <DependentUpon>201710060119225_testSample.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
