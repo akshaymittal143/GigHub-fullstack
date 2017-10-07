@@ -1,4 +1,5 @@
-﻿using Gighub1.Models;
+﻿using Gighub1.Dtos;
+using Gighub1.Models;
 using Microsoft.AspNet.Identity;
 using System.Linq;
 using System.Web.Http;
@@ -15,16 +16,16 @@ namespace Gighub1.Controllers
             _context = new ApplicationDbContext();
         }
         [HttpPost]
-        public IHttpActionResult Attend([FromBody] int gigId)
+        public IHttpActionResult Attend(AttendanceDto dto)
         {
             var userId = User.Identity.GetUserId();
-            var exists = _context.Attendances.Any(a => a.AttendeeId == userId && a.GigId == gigId);
+            var exists = _context.Attendances.Any(a => a.AttendeeId == userId && a.GigId == dto.GigId);
 
             if (exists)
                 return BadRequest("The attendance already exists");
             var attendance = new Attendance
             {
-                GigId = gigId,
+                GigId = dto.GigId,
                 AttendeeId = userId
             };
 
