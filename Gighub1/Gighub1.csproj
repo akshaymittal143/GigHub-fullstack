@@ -232,10 +232,19 @@
     <Compile Include="Migrations\201710060119225_testSample.Designer.cs">
       <DependentUpon>201710060119225_testSample.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710072028274_AddAddtendance.cs" />
+    <Compile Include="Migrations\201710072028274_AddAddtendance.Designer.cs">
+      <DependentUpon>201710072028274_AddAddtendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710072033220_AddAddtendance1.cs" />
+    <Compile Include="Migrations\201710072033220_AddAddtendance1.Designer.cs">
+      <DependentUpon>201710072033220_AddAddtendance1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
+    <Compile Include="Models\Attendance.cs" />
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\Gig.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -344,6 +353,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201710060119225_testSample.resx">
       <DependentUpon>201710060119225_testSample.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710072028274_AddAddtendance.resx">
+      <DependentUpon>201710072028274_AddAddtendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710072033220_AddAddtendance1.resx">
+      <DependentUpon>201710072033220_AddAddtendance1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

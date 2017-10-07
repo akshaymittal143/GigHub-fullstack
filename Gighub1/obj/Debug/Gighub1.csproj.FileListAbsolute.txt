@@ -126,3 +126,5 @@ C:\Users\aksha\Documents\Visual Studio 2017\Projects\Gighub1\Gighub1\obj\Debug\G
 C:\Users\aksha\Documents\Visual Studio 2017\Projects\Gighub1\Gighub1\obj\Debug\Gighub1.Migrations.updatedArtistId.resources
 C:\Users\aksha\Documents\Visual Studio 2017\Projects\Gighub1\Gighub1\obj\Debug\Gighub1.Migrations.AddNameToApplicationUser.resources
 C:\Users\aksha\Documents\Visual Studio 2017\Projects\Gighub1\Gighub1\obj\Debug\Gighub1.Migrations.testSample.resources
+C:\Users\aksha\Documents\Visual Studio 2017\Projects\Gighub1\Gighub1\obj\Debug\Gighub1.Migrations.AddAddtendance.resources
+C:\Users\aksha\Documents\Visual Studio 2017\Projects\Gighub1\Gighub1\obj\Debug\Gighub1.Migrations.AddAddtendance1.resources
