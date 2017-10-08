@@ -33,6 +33,11 @@ namespace Gighub1.Models
                 .WithRequired(f => f.Followee)
                 .WillCascadeOnDelete(false);
 
+            modelBuilder.Entity<ApplicationUser>()
+                .HasMany(u => u.Followees)
+                .WithRequired(f => f.Follower)
+                .WillCascadeOnDelete(false);
+
             base.OnModelCreating(modelBuilder);
         }
     }
