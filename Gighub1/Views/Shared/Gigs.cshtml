@@ -3,6 +3,7 @@
     ViewBag.Title = "Home Page";
 }
 
+
 <h1>@Model.Heading </h1>
 
 <ul class="gigs" voffset4>
@@ -32,7 +33,7 @@
                 </span>
                 @if (Model.ShowActions)
                 {
-                    <button data-gig-id="@gig.Id" class="btn btn-default btn-sm pull-right js-toggle-attedance">Going ?</button>
+                    <button class="btn btn-default btn-sm pull-right js-toggle-attedance" data-gig-id="@gig.Id">Going ?</button>
                 }
             </div>
                       

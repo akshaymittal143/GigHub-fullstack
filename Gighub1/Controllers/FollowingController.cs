@@ -2,6 +2,7 @@
 using Microsoft.AspNet.Identity;
 using System.Linq;
 using System.Web.Http;
+using Gighub1.Dtos;
 
 namespace Gighub1.Controllers
 {
