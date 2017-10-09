@@ -3,8 +3,9 @@
     ViewBag.Title = "Home Page";
 }
 
+<h1>@Model.Heading </h1>
 
-<ul class="gigs">
+<ul class="gigs" voffset4>
     @foreach (var gig in Model.UpcomingGigs)
     {
        
@@ -29,13 +30,13 @@
                 <span class="genre">
                     @gig.Genre.Name
                 </span>
-                    @if (Model.ShowActions)
-                    {
-                        <button data-gig-id="@gig.Id" class="btn btn-default btn-sm pull-right js-toggle-attedance">Going ?</button>
-                    }
+                @if (Model.ShowActions)
+                {
+                    <button data-gig-id="@gig.Id" class="btn btn-default btn-sm pull-right js-toggle-attedance">Going ?</button>
+                }
             </div>
                       
-       </li>
+        </li>
     }
 </ul>
 

@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-using Gighub1.Models;
+﻿using Gighub1.Models;
+using System.Collections.Generic;
 
 namespace Gighub1.ViewModels
 {
@@ -7,5 +7,6 @@ namespace Gighub1.ViewModels
     {
         public IEnumerable<Gig> UpcomingGigs { get; set; }
         public bool ShowActions { get; set; }
+        public string Heading { get; set; }
     }
 }
