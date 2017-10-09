@@ -134,3 +134,4 @@ C:\Users\aksha\Documents\Visual Studio 2017\Projects\Gighub1\Gighub1\bin\System.
 C:\Users\aksha\Documents\Visual Studio 2017\Projects\Gighub1\Gighub1\bin\System.Net.Http.Formatting.xml
 C:\Users\aksha\Documents\Visual Studio 2017\Projects\Gighub1\Gighub1\bin\System.Web.Http.xml
 C:\Users\aksha\Documents\Visual Studio 2017\Projects\Gighub1\Gighub1\bin\System.Web.Http.WebHost.xml
+C:\Users\aksha\Documents\Visual Studio 2017\Projects\Gighub1\Gighub1\obj\Debug\Gighub1.Migrations.AddFollowing.resources
